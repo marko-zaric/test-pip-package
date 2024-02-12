@@ -1,14 +1,15 @@
 from setuptools import setup, find_packages
 
-from my_pip_package.my_pip_package import __version__
-
 setup(
     name='my_pip_package',
-    version=__version__,
+    version='0.0.1',
 
-    url='https://github.com/marko-zaric/test-pip-package',
+    
     author='Marko Zaric',
     author_email='m-zaric@hotmail.com',
-
+    description='A small example package',
+    long_description=open('README.md').read(),
+    long_description_content_type='text/markdown',
+    url='https://github.com/marko-zaric/test-pip-package',
     py_modules=find_packages(),
 )
