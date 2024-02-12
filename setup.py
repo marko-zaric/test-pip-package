@@ -12,4 +12,6 @@ setup(
     long_description_content_type='text/markdown',
     url='https://github.com/marko-zaric/test-pip-package',
     py_modules=find_packages(),
+
+    python_requires='>=3.8.10',
 )
